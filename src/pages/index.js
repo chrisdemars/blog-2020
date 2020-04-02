@@ -1,11 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import '../styles/styles.scss'
 
-export default class index extends Component {
-  render() {
+import Header from '../components/header'
+
+
+const Index = () => {
     return (
       <div>
-        <h1>Hey whatsup Todd & Shannon</h1>
+        <Header />
       </div>
     )
-  }
 }
+
+export default Index;
