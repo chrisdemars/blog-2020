@@ -15,7 +15,6 @@ html {
 }
 
 body {
-  background-color: seagreen;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -28,13 +27,8 @@ h6 {
   font-family: "Montserrat", sans-serif;
 }
 
-.header {
-  background-color: #666;
-  height: 300px;
-  width: 100vw;
-}
-
 .container {
   margin: 0 auto;
-  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }

@@ -1,15 +1,16 @@
-import React from 'react'
-import '../styles/styles.scss'
+import React from "react"
+import "../global/styles.scss"
 
-import Header from '../components/header'
-
+import Header from "../components/header"
+import Hero from "../components/hero"
 
 const Index = () => {
-    return (
-      <div>
-        <Header />
-      </div>
-    )
+  return (
+    <div className="container">
+      <Header />
+      <Hero />
+    </div>
+  )
 }
 
-export default Index;
+export default Index
