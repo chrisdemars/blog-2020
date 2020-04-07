@@ -1,13 +1,23 @@
 .hero-section {
-  background-color: pink;
+  background-color: palevioletred;
+
+  .headshot-section {
+    grid-column: 1/2;
+    display: flex;
+    // background-color: lightgreen;
+  }
+
+  .mini-bio {
+    // background-color: lightslategray;
+    grid-column: 2/3;
+  }
 }
 
-.headshot-section {
-  grid-column: 1 / 6;
-  background-color: lightgreen;
-}
-
-.mini-bio {
-  background-color: lightslategray;
-  grid-column: 7 / 12;
+.hero-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  place-items: center;
 }

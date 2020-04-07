@@ -10,7 +10,7 @@ import Footer from "../components/footer"
 
 const Index = () => {
   return (
-    <div className="container">
+    <div>
       <Header />
       <Hero />
       <RecentWork />

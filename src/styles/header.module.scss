@@ -1,11 +1,6 @@
 .header {
-  height: 75px;
-  padding: 0 4rem;
   background-color: seagreen;
-  grid-column: 1 / -1;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 100vw;
 }
 
 .nav-items {
@@ -21,4 +16,14 @@
       text-decoration: none;
     }
   }
+}
+
+.header-wrapper {
+  height: 75px;
+  padding: 0 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
