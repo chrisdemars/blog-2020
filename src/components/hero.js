@@ -7,7 +7,7 @@ import Headshot from "../images/headshot.png"
 
 const Hero = () => {
   return (
-    <section className={HeroStyles.heroSection}>
+    <>
       <div className={HeroStyles.headshotSection}>
         <img src={Headshot} alt="" />
       </div>
@@ -20,7 +20,7 @@ const Hero = () => {
           speak, write, and teach about the web.
         </p>
       </div>
-    </section>
+    </>
   )
 }
 

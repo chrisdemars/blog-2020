@@ -1,13 +1,13 @@
 .hero-section {
   background-color: pink;
+}
 
-  .headshot-section {
-    grid-column: 1 / 6;
-    background-color: lightgreen;
-  }
+.headshot-section {
+  grid-column: 1 / 6;
+  background-color: lightgreen;
+}
 
-  .mini-bio {
-    background-color: lightslategray;
-    grid-column: 7 / 12;
-  }
+.mini-bio {
+  background-color: lightslategray;
+  grid-column: 7 / 12;
 }
