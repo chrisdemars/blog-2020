@@ -15,6 +15,9 @@ const Hero = () => {
         <div className={HeroStyles.miniBio}>
           <h1>Hey there</h1>
           <h2>What is good?</h2>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, earum!
+          </p>
         </div>
       </section>
     </>

@@ -9,7 +9,7 @@ import HeaderStyles from "../styles/header.module.scss"
 const Header = () => {
   return (
     <>
-      <header className={`${HeaderStyles.header} container`}>
+      <header className={HeaderStyles.header}>
         <h1>ChrisDeMars</h1>
         <nav>
           <ul className={HeaderStyles.navItems}>
