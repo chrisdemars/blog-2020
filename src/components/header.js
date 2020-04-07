@@ -8,7 +8,9 @@ const Header = () => {
   return (
     <div className={HeaderStyles.header}>
       <header className={HeaderStyles.headerWrapper}>
-        <h1>ChrisDeMars</h1>
+        <h1 className={HeaderStyles.logo}>
+          Chris<span className={HeaderStyles.greenAccent}>DeMars</span>
+        </h1>
         <nav>
           <ul className={HeaderStyles.navItems}>
             <li className={HeaderStyles.navItem}>

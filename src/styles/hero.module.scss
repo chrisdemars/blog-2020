@@ -1,14 +1,13 @@
 .hero-section {
-  background-color: palevioletred;
+  // background-color: palevioletred;
+  width: 100vw;
 
   .headshot-section {
     grid-column: 1/2;
     display: flex;
-    // background-color: lightgreen;
   }
 
   .mini-bio {
-    // background-color: lightslategray;
     grid-column: 2/3;
   }
 }

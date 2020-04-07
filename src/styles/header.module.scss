@@ -1,6 +1,10 @@
 .header {
-  background-color: seagreen;
+  // background-color: seagreen;
   width: 100vw;
+
+  .logo {
+    font-weight: 100;
+  }
 }
 
 .nav-items {
@@ -26,4 +30,9 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.green-accent {
+  color: #15aa00;
+  font-weight: 400;
 }

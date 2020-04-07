@@ -1,11 +1,23 @@
-import React, { Component } from 'react'
+import React from "react"
+import "../global/styles.scss"
 
-export default class about extends Component {
-  render() {
-    return (
-      <div>
-        <h1>Holla</h1>
-      </div>
-    )
-  }
+import Header from "../components/header"
+import Hero from "../components/hero"
+import RecentWork from "../components/recentWork"
+import Events from "../components/events"
+import Hire from "../components/hire"
+import Footer from "../components/footer"
+
+const About = () => {
+  return (
+    <div>
+      <Header />
+      <Hero />
+      <h1>Hey there, this is the about section!</h1>
+      <Hire />
+      <Footer />
+    </div>
+  )
 }
+
+export default About
