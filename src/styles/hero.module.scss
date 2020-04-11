@@ -9,6 +9,15 @@
 
   .mini-bio {
     grid-column: 2/3;
+
+    h1 {
+      color: #138904;
+      margin: 15px 0;
+    }
+
+    p {
+      line-height: 1.5em;
+    }
   }
 }
 
