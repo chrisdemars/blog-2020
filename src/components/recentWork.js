@@ -4,8 +4,8 @@ import RecentWorkStyles from "../styles/RecentWork.module.scss"
 const RecentWork = () => {
   return (
     <section className={RecentWorkStyles.recentWorkSection}>
+      <h2>Recent Work</h2>
       <div className={RecentWorkStyles.recentWorkWrapper}>
-        <h2>Recent Work</h2>
         <div className={RecentWorkStyles.recentWork1}>
           <img
             src="https://images.unsplash.com/photo-1540295373958-75c649d3275d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3150&q=80"

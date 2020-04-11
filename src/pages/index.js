@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Hero from "../components/hero"
 import RecentWork from "../components/RecentWork"
-import Events from "../components/events"
+import UpcomingEvents from "../components/UpcomingEvents"
 import Hire from "../components/hire"
 import Footer from "../components/footer"
 
@@ -15,7 +15,7 @@ const Index = () => {
       <Header />
       <Hero />
       <RecentWork />
-      <Events />
+      <UpcomingEvents />
       <Hire />
       <Footer />
     </div>
