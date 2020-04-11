@@ -4,7 +4,7 @@ import UpcomingEventsStyles from "../styles/UpcomingEvents.module.scss"
 const UpcomingEvents = () => {
   return (
     <section className={UpcomingEventsStyles.upcomingEventsSection}>
-      <h2>Recent Work</h2>
+      <h2>Upcoming Events</h2>
       <div className={UpcomingEventsStyles.upcomingEventsWrapper}>
         <div className={UpcomingEventsStyles.upcomingEvent1}>
           <img
