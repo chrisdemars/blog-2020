@@ -1,6 +1,10 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import Header from "../components/header"
+import Hero from "../components/hero"
+import Hire from "../components/hire"
+import Footer from "../components/footer"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -16,8 +20,7 @@ const BlogIndex = ({ data, location }) => {
         return (
           <article key={node.fields.slug}>
             <header>
-              <h3
-              >
+              <h3>
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>

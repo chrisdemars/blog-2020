@@ -1,6 +1,16 @@
 .hero-section {
   // background-color: palevioletred;
   width: 100vw;
+  border-bottom: 1px solid black;
+
+  .hero-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    place-items: center;
+  }
 
   .headshot-section {
     grid-column: 1/2;
@@ -19,13 +29,4 @@
       line-height: 1.5em;
     }
   }
-}
-
-.hero-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  place-items: center;
 }
